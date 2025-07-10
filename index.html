@@ -1,5 +1,24 @@
-<title>My GitHub Page</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sản phẩm</title>
+</head>
+<body>
+    <h1>Danh sách sản phẩm</h1>
+    <ul id="product-list"></ul>
 
-
-    <h1>Welcome to my GitHub Page!</h1>
-    <p>This is my first website using GitHub Pages.</p>
+    <script>fetch('data.json')
+            .then(response => response.json())
+            .then(data => {
+                const productList = document.getElementById('product-list');
+                data.forEach(product => {
+                    const listItem = document.createElement('li');
+                    listItem.textContent = `${product.name} - Giá: ${product.price}`;
+                    productList.appendChild(listItem);
+                });
+            })
+            .catch(error => console.error('Lỗi khi tải dữ liệu:', error));</script>
+</body>
+</html>
