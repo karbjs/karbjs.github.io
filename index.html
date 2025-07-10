@@ -3,22 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sản phẩm</title>
+    <title>My GitHub Page - Ghi chú</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        #notes-container {
+            margin-top: 20px;
+            border-top: 1px solid #ccc;
+            padding-top: 10px;
+        }
+
+        .note-item {
+            background-color: #f9f9f9;
+            border: 1px solid #eee;
+            padding: 10px;
+            margin-bottom: 5px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Danh sách sản phẩm</h1>
-    <ul id="product-list"></ul>
+    <h1>Welcome to my GitHub Page!</h1>
+    <p>This is my first website using GitHub Pages.</p>
 
-    <script>fetch('data.json')
-            .then(response => response.json())
-            .then(data => {
-                const productList = document.getElementById('product-list');
-                data.forEach(product => {
-                    const listItem = document.createElement('li');
-                    listItem.textContent = `${product.name} - Giá: ${product.price}`;
-                    productList.appendChild(listItem);
+    <h2>Ghi chú của tôi</h2>
+    <div id="notes-container">
+    </div>
+
+    <script>
+        // Hàm để tải và hiển thị dữ liệu
+        function loadNotes() {
+            fetch('data.json') // Đường dẫn đến file dữ liệu của bạn
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok ' + response.statusText);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    const notesContainer = document.getElementById('notes-container');
+                    notesContainer.innerHTML = ''; // Xóa nội dung cũ (nếu có)
+
+                    if (data && Array.isArray(data)) {
+                        data.forEach(note => {
+                            const noteDiv = document.createElement('div');
+                            noteDiv.className = 'note-item';
+                            noteDiv.innerHTML = `
+                                    <strong>ID:</strong> ${note.id}<br>
+                                    <strong>Ghi chú:</strong> ${note.item}<br>
+                                    <strong>Ngày:</strong> ${note.date}
+                                `;
+                            notesContainer.appendChild(noteDiv);
+                        });
+                    } else {
+                        notesContainer.innerHTML = '<p>Không có dữ liệu ghi chú.</p>';
+                    }
+                })
+                .catch(error => {
+                    console.error('Lỗi khi tải ghi chú:', error);
+                    document.getElementById('notes-container').innerHTML = '<p style="color: red;">Không thể tải ghi chú. Vui lòng kiểm tra lại.</p>';
                 });
-            })
-            .catch(error => console.error('Lỗi khi tải dữ liệu:', error));</script>
+        }
+
+        // Gọi hàm khi trang được tải xong
+        document.addEventListener('DOMContentLoaded', loadNotes);
+    </script>
 </body>
 </html>
