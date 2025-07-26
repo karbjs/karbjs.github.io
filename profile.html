@@ -3,69 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hồ Sơ Cá Nhân</title>
+    <title>Hồ Sơ Cá Nhân Của Bạn</title>
     <!-- Tải Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #f0f2f5; /* Màu nền nhẹ nhàng */
+            background-color: #e2e8f0; /* Light slate background */
+            background-image: linear-gradient(to bottom right, #f8fafc, #e2e8f0); /* Subtle gradient */
         }
         .section-title {
             position: relative;
             display: inline-block;
-            padding-bottom: 0.5rem;
+            padding-bottom: 0.75rem; /* Increased padding for a bolder line */
+            margin-bottom: 1.5rem; /* More space below title */
         }
         .section-title::after {
             content: '';
             position: absolute;
             left: 0;
             bottom: 0;
-            width: 50%; /* Độ rộng của đường gạch dưới */
-            height: 3px;
-            background-color: #3b82f6; /* Màu xanh của Tailwind blue-500 */
-            border-radius: 9999px; /* Bo tròn đường gạch dưới */
+            width: 60%; /* Wider underline */
+            height: 4px; /* Thicker underline */
+            background-color: #6366f1; /* Deeper blue/indigo */
+            border-radius: 9999px;
+        }
+        .card-hover-effect {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card-hover-effect:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        .experience-item {
+            transition: background-color 0.3s ease;
+        }
+        .experience-item:hover {
+            background-color: #f0f4f8; /* Light hover for experience items */
         }
     </style>
 </head>
 <body class="antialiased text-gray-800">
-    <div class="container mx-auto p-4 sm:p-6 lg:p-8">
+    <div class="container mx-auto p-4 sm:p-6 lg:p-10">
         <!-- Phần Header -->
-        <header class="bg-white shadow-lg rounded-xl p-6 mb-8 flex flex-col md:flex-row items-center justify-between">
-            <div class="flex flex-col md:flex-row items-center">
-                <img src="https://placehold.co/120x120/a78bfa/ffffff?text=AVATAR" alt="Ảnh đại diện" class="w-28 h-28 rounded-full object-cover mb-4 md:mb-0 md:mr-6 shadow-md border-4 border-purple-300">
-                <div class="text-center md:text-left">
-                    <h1 class="text-4xl font-extrabold text-gray-900 leading-tight">Nguyễn Văn A</h1>
-                    <p class="text-xl text-gray-600 mt-1">Lập Trình Viên Web | Nhà Sáng Tạo Nội Dung</p>
+        <header class="bg-white shadow-2xl rounded-3xl p-8 mb-10 flex flex-col md:flex-row items-center justify-between transform transition-all duration-300 hover:scale-[1.01]">
+            <div class="flex flex-col md:flex-row items-center text-center md:text-left">
+                <img src="https://placehold.co/150x150/8b5cf6/ffffff?text=AVATAR" alt="Ảnh đại diện" class="w-36 h-36 rounded-full object-cover mb-6 md:mb-0 md:mr-8 shadow-xl border-6 border-purple-400 ring-4 ring-purple-200">
+                <div>
+                    <h1 class="text-5xl font-extrabold text-gray-900 leading-tight mb-2">Nguyễn Văn A</h1>
+                    <p class="text-2xl text-gray-600 font-medium tracking-wide">Lập Trình Viên Web | Nhà Sáng Tạo Nội Dung</p>
                 </div>
             </div>
-            <nav class="mt-6 md:mt-0">
-                <ul class="flex flex-wrap justify-center md:justify-end space-x-4">
-                    <li><a href="#gioi-thieu" class="text-blue-600 hover:text-blue-800 font-medium transition duration-300 ease-in-out">Giới Thiệu</a></li>
-                    <li><a href="#ky-nang" class="text-blue-600 hover:text-blue-800 font-medium transition duration-300 ease-in-out">Kỹ Năng</a></li>
-                    <li><a href="#kinh-nghiem" class="text-blue-600 hover:text-blue-800 font-medium transition duration-300 ease-in-out">Kinh Nghiệm</a></li>
-                    <li><a href="#lien-he" class="text-blue-600 hover:text-blue-800 font-medium transition duration-300 ease-in-out">Liên Hệ</a></li>
+            <nav class="mt-8 md:mt-0">
+                <ul class="flex flex-wrap justify-center md:justify-end space-x-6">
+                    <li><a href="#gioi-thieu" class="text-indigo-600 hover:text-indigo-800 font-semibold text-lg transition duration-300 ease-in-out hover:underline hover:underline-offset-4">Giới Thiệu</a></li>
+                    <li><a href="#ky-nang" class="text-indigo-600 hover:text-indigo-800 font-semibold text-lg transition duration-300 ease-in-out hover:underline hover:underline-offset-4">Kỹ Năng</a></li>
+                    <li><a href="#kinh-nghiem" class="text-indigo-600 hover:text-indigo-800 font-semibold text-lg transition duration-300 ease-in-out hover:underline hover:underline-offset-4">Kinh Nghiệm</a></li>
+                    <li><a href="#lien-he" class="text-indigo-600 hover:text-indigo-800 font-semibold text-lg transition duration-300 ease-in-out hover:underline hover:underline-offset-4">Liên Hệ</a></li>
                 </ul>
             </nav>
         </header>
 
         <!-- Phần Giới Thiệu -->
-        <section id="gioi-thieu" class="bg-white shadow-lg rounded-xl p-6 mb-8">
-            <h2 class="text-3xl font-bold text-gray-900 mb-4 section-title">Giới Thiệu</h2>
-            <p class="text-lg text-gray-700 leading-relaxed">
-                Xin chào! Tôi là Nguyễn Văn A, một lập trình viên web đầy nhiệt huyết với 5 năm kinh nghiệm trong việc phát triển các ứng dụng web hiệu suất cao. Tôi có niềm đam mê mạnh mẽ với việc tạo ra các giải pháp sáng tạo và thân thiện với người dùng, tập trung vào trải nghiệm người dùng tối ưu và hiệu quả hoạt động. Tôi luôn tìm kiếm cơ hội để học hỏi những công nghệ mới và đóng góp vào các dự án có ý nghĩa.
+        <section id="gioi-thieu" class="bg-white shadow-xl rounded-3xl p-8 mb-10 card-hover-effect">
+            <h2 class="text-4xl font-bold text-gray-900 section-title">Giới Thiệu</h2>
+            <p class="text-xl text-gray-700 leading-relaxed">
+                Xin chào! Tôi là Nguyễn Văn A, một lập trình viên web đầy nhiệt huyết với 5 năm kinh nghiệm trong việc phát triển các ứng dụng web hiệu suất cao. Tôi có niềm đam mê mạnh mẽ với việc tạo ra các giải pháp sáng tạo và thân thiện với người dùng, tập trung vào trải nghiệm người dùng tối ưu và hiệu quả hoạt động. Tôi luôn tìm kiếm cơ hội để học hỏi những công nghệ mới và đóng góp vào các dự án có ý nghĩa. Với nền tảng vững chắc về phát triển front-end và back-end, tôi tự tin có thể biến ý tưởng thành hiện thực và mang lại giá trị cho mọi dự án.
             </p>
         </section>
 
         <!-- Phần Kỹ Năng -->
-        <section id="ky-nang" class="bg-white shadow-lg rounded-xl p-6 mb-8">
-            <h2 class="text-3xl font-bold text-gray-900 mb-4 section-title">Kỹ Năng</h2>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <section id="ky-nang" class="bg-white shadow-xl rounded-3xl p-8 mb-10 card-hover-effect">
+            <h2 class="text-4xl font-bold text-gray-900 section-title">Kỹ Năng</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Kỹ năng Phát triển Web -->
-                <div class="bg-blue-50 p-4 rounded-lg shadow-sm border border-blue-200">
-                    <h3 class="text-xl font-semibold text-blue-700 mb-2">Phát Triển Web</h3>
-                    <ul class="list-disc list-inside text-gray-700 space-y-1">
+                <div class="bg-blue-50 p-6 rounded-xl shadow-md border border-blue-200 card-hover-effect">
+                    <h3 class="text-2xl font-bold text-blue-700 mb-3 flex items-center"><svg class="w-7 h-7 mr-3 text-blue-500" fill="currentColor" viewBox="0 0 20 20"><path d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l.649-.186.936-2.517 1.442.361.936 2.517.649.186a1 1 0 001.169-1.409l-7-14zM10 4.242L15.347 15.348 10 13.01l-5.347 2.338L10 4.242z"></path></svg>Phát Triển Web</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2 text-lg">
                         <li>HTML5, CSS3, JavaScript (ES6+)</li>
                         <li>React.js, Vue.js, Angular</li>
                         <li>Node.js, Express.js</li>
@@ -74,9 +89,9 @@
                     </ul>
                 </div>
                 <!-- Kỹ năng Cơ sở dữ liệu -->
-                <div class="bg-green-50 p-4 rounded-lg shadow-sm border border-green-200">
-                    <h3 class="text-xl font-semibold text-green-700 mb-2">Cơ Sở Dữ Liệu</h3>
-                    <ul class="list-disc list-inside text-gray-700 space-y-1">
+                <div class="bg-green-50 p-6 rounded-xl shadow-md border border-green-200 card-hover-effect">
+                    <h3 class="text-2xl font-bold text-green-700 mb-3 flex items-center"><svg class="w-7 h-7 mr-3 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path d="M4 4a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2H4zm0 2h12v8H4V6zm2 2h8v2H6V8zm0 4h8v2H6v-2z"></path></svg>Cơ Sở Dữ Liệu</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2 text-lg">
                         <li>MongoDB</li>
                         <li>PostgreSQL</li>
                         <li>MySQL</li>
@@ -84,9 +99,9 @@
                     </ul>
                 </div>
                 <!-- Kỹ năng Công cụ & Khác -->
-                <div class="bg-yellow-50 p-4 rounded-lg shadow-sm border border-yellow-200">
-                    <h3 class="text-xl font-semibold text-yellow-700 mb-2">Công Cụ & Khác</h3>
-                    <ul class="list-disc list-inside text-gray-700 space-y-1">
+                <div class="bg-yellow-50 p-6 rounded-xl shadow-md border border-yellow-200 card-hover-effect">
+                    <h3 class="text-2xl font-bold text-yellow-700 mb-3 flex items-center"><svg class="w-7 h-7 mr-3 text-yellow-500" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 102 0V8a1 1 0 00-.445-.832L10 6.5l-.445.668z"></path></svg>Công Cụ & Khác</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2 text-lg">
                         <li>Git, GitHub/GitLab</li>
                         <li>Docker</li>
                         <li>AWS, Google Cloud Platform</li>
@@ -98,60 +113,63 @@
         </section>
 
         <!-- Phần Kinh Nghiệm -->
-        <section id="kinh-nghiem" class="bg-white shadow-lg rounded-xl p-6 mb-8">
-            <h2 class="text-3xl font-bold text-gray-900 mb-4 section-title">Kinh Nghiệm</h2>
-            <div class="space-y-6">
+        <section id="kinh-nghiem" class="bg-white shadow-xl rounded-3xl p-8 mb-10 card-hover-effect">
+            <h2 class="text-4xl font-bold text-gray-900 section-title">Kinh Nghiệm</h2>
+            <div class="space-y-8">
                 <!-- Kinh nghiệm 1 -->
-                <div class="border-l-4 border-blue-500 pl-4">
-                    <h3 class="text-2xl font-semibold text-gray-900">Lập Trình Viên Full-stack</h3>
-                    <p class="text-blue-600 text-lg font-medium">Công Ty ABC | 2020 - Hiện tại</p>
-                    <ul class="list-disc list-inside text-gray-700 mt-2 space-y-1">
+                <div class="border-l-4 border-indigo-500 pl-6 py-2 experience-item rounded-r-lg">
+                    <h3 class="text-3xl font-bold text-gray-900">Lập Trình Viên Full-stack</h3>
+                    <p class="text-indigo-600 text-xl font-medium mb-2">Công Ty ABC | 2020 - Hiện tại</p>
+                    <ul class="list-disc list-inside text-gray-700 mt-2 space-y-1 text-lg">
                         <li>Phát triển và duy trì các ứng dụng web sử dụng React.js và Node.js.</li>
                         <li>Thiết kế và triển khai cơ sở dữ liệu MongoDB và PostgreSQL.</li>
                         <li>Tham gia vào toàn bộ vòng đời phát triển phần mềm, từ phân tích yêu cầu đến triển khai.</li>
                         <li>Cải thiện hiệu suất ứng dụng lên 20% thông qua tối ưu hóa mã nguồn và truy vấn cơ sở dữ liệu.</li>
+                        <li>Dẫn dắt một nhóm nhỏ gồm 3 lập trình viên trong các dự án quan trọng.</li>
                     </ul>
                 </div>
                 <!-- Kinh nghiệm 2 -->
-                <div class="border-l-4 border-green-500 pl-4">
-                    <h3 class="text-2xl font-semibold text-gray-900">Thực Tập Sinh Phát Triển Web</h3>
-                    <p class="text-green-600 text-lg font-medium">Công Ty XYZ | 2019 - 2020</p>
-                    <ul class="list-disc list-inside text-gray-700 mt-2 space-y-1">
+                <div class="border-l-4 border-emerald-500 pl-6 py-2 experience-item rounded-r-lg">
+                    <h3 class="text-3xl font-bold text-gray-900">Thực Tập Sinh Phát Triển Web</h3>
+                    <p class="text-emerald-600 text-xl font-medium mb-2">Công Ty XYZ | 2019 - 2020</p>
+                    <ul class="list-disc list-inside text-gray-700 mt-2 space-y-1 text-lg">
                         <li>Hỗ trợ phát triển giao diện người dùng bằng HTML, CSS và JavaScript.</li>
                         <li>Học hỏi và áp dụng các nguyên tắc thiết kế responsive.</li>
                         <li>Tham gia vào các buổi đánh giá mã và học hỏi từ các lập trình viên cấp cao.</li>
+                        <li>Đóng góp vào việc phát triển các tính năng nhỏ và sửa lỗi.</li>
                     </ul>
                 </div>
             </div>
         </section>
 
         <!-- Phần Liên Hệ -->
-        <section id="lien-he" class="bg-white shadow-lg rounded-xl p-6 mb-8">
-            <h2 class="text-3xl font-bold text-gray-900 mb-4 section-title">Liên Hệ</h2>
-            <p class="text-lg text-gray-700 mb-4">Bạn có thể liên hệ với tôi qua các kênh sau:</p>
-            <ul class="space-y-3 text-lg text-gray-700">
+        <section id="lien-he" class="bg-white shadow-xl rounded-3xl p-8 mb-10 card-hover-effect">
+            <h2 class="text-4xl font-bold text-gray-900 section-title">Liên Hệ</h2>
+            <p class="text-xl text-gray-700 mb-6">Bạn có thể liên hệ với tôi qua các kênh sau:</p>
+            <ul class="space-y-4 text-xl text-gray-700">
                 <li class="flex items-center">
-                    <svg class="w-6 h-6 mr-2 text-blue-500" fill="currentColor" viewBox="0 0 20 20"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path></svg>
+                    <svg class="w-8 h-8 mr-3 text-blue-500" fill="currentColor" viewBox="0 0 20 20"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path></svg>
                     Email: <a href="mailto:nguyenvana@example.com" class="text-blue-600 hover:underline ml-2">nguyenvana@example.com</a>
                 </li>
                 <li class="flex items-center">
-                    <svg class="w-6 h-6 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M7 2a2 2 0 00-2 2v12a2 2 0 002 2h6a2 2 0 002-2V4a2 2 0 00-2-2H7zm3 14a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
+                    <svg class="w-8 h-8 mr-3 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M7 2a2 2 0 00-2 2v12a2 2 0 002 2h6a2 2 0 002-2V4a2 2 0 00-2-2H7zm3 14a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
                     Điện thoại: <a href="tel:+84123456789" class="text-blue-600 hover:underline ml-2">(+84) 123 456 789</a>
                 </li>
                 <li class="flex items-center">
-                    <svg class="w-6 h-6 mr-2 text-gray-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 0C4.477 0 0 4.484 0 10.017c0 4.417 2.865 8.168 6.839 9.489.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.004.072 1.531 1.032 1.531 1.032.892 1.529 2.341 1.089 2.91.833.091-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.93 0-1.09.39-1.984 1.029-2.682-.103-.253-.446-1.272.098-2.65 0 0 .84-.268 2.75 1.022A9.607 9.607 0 0110 4.878c.85.004 1.705.115 2.504.337 1.909-1.29 2.747-1.022 2.747-1.022.546 1.378.202 2.397.099 2.65.64.698 1.028 1.592 1.028 2.682 0 3.826-2.338 4.673-4.564 4.925.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.579.688.482C17.13 18.18 20 14.425 20 10.017 20 4.484 15.522 0 10 0z" clip-rule="evenodd"></path></svg>
+                    <svg class="w-8 h-8 mr-3 text-gray-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 0C4.477 0 0 4.484 0 10.017c0 4.417 2.865 8.168 6.839 9.489.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.004.072 1.531 1.032 1.531 1.032.892 1.529 2.341 1.089 2.91.833.091-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.93 0-1.09.39-1.984 1.029-2.682-.103-.253-.446-1.272.098-2.65 0 0 .84-.268 2.75 1.022A9.607 9.607 0 0110 4.878c.85.004 1.705.115 2.504.337 1.909-1.29 2.747-1.022 2.747-1.022.546 1.378.202 2.397.099 2.65.64.698 1.028 1.592 1.028 2.682 0 3.826-2.338 4.673-4.564 4.925.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.579.688.482C17.13 18.18 20 14.425 20 10.017 20 4.484 15.522 0 10 0z" clip-rule="evenodd"></path></svg>
                     GitHub: <a href="https://github.com/yourusername" target="_blank" class="text-blue-600 hover:underline ml-2">github.com/yourusername</a>
                 </li>
                 <li class="flex items-center">
-                    <svg class="w-6 h-6 mr-2 text-blue-700" fill="currentColor" viewBox="0 0 20 20"><path d="M16 4H4c-1.104 0-2 .896-2 2v12c0 1.104.896 2 2 2h12c1.104 0 2-.896 2-2V6c0-1.104-.896-2-2-2zM4 6h12v12H4V6zm4 2h4v2H8V8zm0 4h4v2H8v-2z"></path></svg>
+                    <svg class="w-8 h-8 mr-3 text-blue-700" fill="currentColor" viewBox="0 0 20 20"><path d="M16 4H4c-1.104 0-2 .896-2 2v12c0 1.104.896 2 2 2h12c1.104 0 2-.896 2-2V6c0-1.104-.896-2-2-2zM4 6h12v12H4V6zm4 2h4v2H8V8zm0 4h4v2H8v-2z"></path></svg>
                     LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank" class="text-blue-600 hover:underline ml-2">linkedin.com/in/yourprofile</a>
                 </li>
             </ul>
         </section>
 
         <!-- Phần Footer -->
-        <footer class="text-center text-gray-600 mt-8 py-4 border-t border-gray-300">
+        <footer class="text-center text-gray-600 mt-10 py-6 border-t border-gray-300 text-lg">
             <p>&copy; 2025 Nguyễn Văn A. Mọi quyền được bảo lưu.</p>
+            <p class="mt-2 text-sm">Được thiết kế với <span class="text-red-500">&hearts;</span> và Tailwind CSS.</p>
         </footer>
     </div>
 </body>
