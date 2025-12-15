@@ -5,8 +5,11 @@
 	// Page loading animation
 	$(window).on('load', function() {
 
-        $('#js-preloader').addClass('loaded');
+		$('#js-preloader').addClass('loaded');
 
+		const date = new Date();
+		const year = date.getFullYear();
+		$('#copyrightYear').html(year);
     });
 
 
