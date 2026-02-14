@@ -1,0 +1,203 @@
+{
+  "vi": {
+    "p_name": "Nguyễn Đức Dương",
+    "desc": "Lập Trình MFC (C++), Python, Nodejs, PHP, Html, CSS, Javascript.",
+    "menu1": "Giới Thiệu",
+    "menu2": "Kỹ Năng",
+    "menu3": "Kinh Nghiệm",
+    "menu4": "Liên Hệ",
+    "interview": "Xin chào! Tôi là Nguyễn Đức Dương, một lập trình viên có nền tảng kỹ thuật vững chắc với kinh nghiệm làm việc trên nhiều ngôn ngữ và nền tảng khác nhau. Tôi có khả năng xây dựng các ứng dụng desktop hiệu suất cao bằng <b>MFC (C++)</b>, đồng thời sở hữu tư duy linh hoạt trong phát triển web hiện đại với <b>NodeJS, PHP</b> và bộ ba <b>HTML/CSS/JS</b>. Sự kết hợp giữa tư duy lập trình hệ thống và sự nhạy bén với công nghệ web cho phép tôi tiếp cận các bài toán phức tạp một cách toàn diện. Tôi luôn tìm kiếm cơ hội để tối ưu hóa hiệu suất phần mềm và mang lại trải nghiệm người dùng tốt nhất.",
+    "skill1": "Phát Triển Phần Mềm",
+    "skill1_list": [
+      "MFC (C++) - Dll phát triển camera cho dòng máy isMedia",
+      "PHP (Workpress, Joomla, Codeigniter, Laravel, ...)",
+      "Node.js, Express.js",
+      "Python",
+      "HTML, CSS, JavaScript"
+    ],
+    "skill2": "Cơ Sở Dữ Liệu",
+    "skill2_list": [
+      "Flat File Database (NoSQL)",
+      "Binary Data Store",
+      "Delimited Text Files (CSV, TXT, etc.)",
+      "MySQL",
+      "SQL Server"
+    ],
+    "skill3": "Công Cụ & Khác",
+    "skill3_list": [
+      "Git, GitHub/GitLab",
+      "Visual Studio (2017, 2019, 2026), Visual Studio Code",
+      "OllyDbg, Depends22 (Debugging Tools)",
+      "MPLAB X IDE, Arduino",
+      "HxD, Batch Command Line",
+      "FileZilla"
+    ],
+    "exp1": "Lập Trình Viên Full-stack",
+    "exp1_location_time": "Công Ty Mcnex VNA | 28/03/2020 - Hiện tại",
+    "exp1_list": [
+      "Phát triển dll và duy trì các chương trình cho dòng máy isMedia.",
+      "Phát triển dll cho dòng máy AA.",
+      "Phát triển chương trình kiểm tra, thiết lập chuyển động cho module trên codejig (MPLAB X IDE).",
+      "Phát triển chương trình kiểm tra dữ liệu module (Ardunio).",
+      "Xử lý dữ liệu module thông qua các dữ liệu từ Binary, ini, csv, ...",
+      "Phân triển các tool hỗ trợ hoạt động qua python, nodejs, batch, ...",
+      "Phân tích kiểm tra dữ liệu thông qua binary sử dụng HxD.",
+      "Debug đánh giá phân tích vấn đề qua depend & ollydbg."
+    ],
+    "exp2": "Lập trình tự do Phát Triển Web",
+    "exp2_location_time": "Freelancer | 2016 - 2020",
+    "exp2_list": [
+      "Xây dựng website trên nền tảng Workpress, Joomla, Codeigniter, Laravel,...",
+      "Xây dựng plugin trên nền tảng Workpress, Joomla",
+      "Quản lý hệ thống MySQL, websever",
+      "Phát triển giao diện người dùng bằng HTML, CSS và JavaScript."
+    ],
+    "exp3": "Sinh viên (vừa đi học vừa làm thêm)",
+    "exp3_location_time": "ĐH CNTT&TT Thái Nguyên, nhóm phát triển web joomfashion | 2014 - 2016",
+    "exp3_list": [
+      "Hỗ trợ phát triển web joomla , PHP thuần, ...",
+      "Hỗ trợ phát triển giao diện người dùng bằng HTML, CSS và JavaScript",
+      "Xây dựng plugin trên nền tảng Joomla",
+      "Quản lý hệ thống cơ sở dữ liệu MySQL",
+      "Tham gia học tập nghiên cứu các ngôn ngữ lập trình C++, Lập trình android, ...",
+      "Đóng góp vào việc phát triển các tính năng nhỏ và sửa lỗi."
+    ],
+    "contact_desc": "Bạn có thể liên hệ với tôi qua các kênh sau:",
+    "copyright": "Bản quyền thông tin cá nhân thuộc về Nguyễn Đức Dương.",
+    "copyright2": "Được thiết kế với <span class=\"text-red-500\">&hearts;</span> và sự tin tưởng của bạn."
+  },
+  "en": {
+    "p_name": "Nguyen Duc Duong",
+    "desc": "MFC (C++), Python, Nodejs, PHP, Html, CSS, Javascript Developer.",
+    "menu1": "About Me",
+    "menu2": "Skills",
+    "menu3": "Experience",
+    "menu4": "Contact",
+    "interview": "Hello! I am Nguyen Duc Duong, a software engineer with a robust technical foundation and extensive experience across various languages and platforms. I specialize in building high-performance desktop applications using <b>MFC (C++)</b>, while maintaining a flexible mindset for modern web development with <b>NodeJS, PHP</b>, and the <b>HTML/CSS/JS</b> triad. The synergy between system-level programming and web technology agility allows me to approach complex problems comprehensively. I am always seeking opportunities to optimize software performance and deliver the best possible user experience.",
+    "skill1": "Software Development",
+    "skill1_list": [
+      "MFC (C++) - DLL development for isMedia camera series",
+      "PHP (WordPress, Joomla, Codeigniter, Laravel, etc.)",
+      "Node.js, Express.js",
+      "Python",
+      "HTML, CSS, JavaScript"
+    ],
+    "skill2": "Databases",
+    "skill2_list": [
+      "Flat File Database (NoSQL)",
+      "Binary Data Store",
+      "Delimited Text Files (CSV, TXT, etc.)",
+      "MySQL",
+      "SQL Server"
+    ],
+    "skill3": "Tools & Others",
+    "skill3_list": [
+      "Git, GitHub/GitLab",
+      "Visual Studio (2017, 2019, 2026), Visual Studio Code",
+      "OllyDbg, Depends22 (Debugging Tools)",
+      "MPLAB X IDE, Arduino",
+      "HxD, Batch Command Line",
+      "FileZilla"
+    ],
+    "exp1": "Full-stack Developer",
+    "exp1_location_time": "Mcnex VNA Company | March 28, 2020 - Present",
+    "exp1_list": [
+      "Developing DLLs and maintaining programs for the isMedia machine line.",
+      "Developing DLLs for the AA machine line.",
+      "Developing inspection and motion setup programs for modules on Codejig (MPLAB X IDE).",
+      "Developing module data verification programs (Arduino).",
+      "Processing module data through Binary, INI, CSV formats, etc.",
+      "Developing automation tools using Python, NodeJS, Batch, etc.",
+      "Analyzing and inspecting binary data using HxD.",
+      "Debugging and analyzing system issues via Depends & OllyDbg."
+    ],
+    "exp2": "Freelance Web Developer",
+    "exp2_location_time": "Freelancer | 2016 - 2020",
+    "exp2_list": [
+      "Building websites on WordPress, Joomla, Codeigniter, Laravel platforms, etc.",
+      "Developing custom plugins for WordPress and Joomla.",
+      "Managing MySQL systems and web servers.",
+      "Developing user interfaces using HTML, CSS, and JavaScript."
+    ],
+    "exp3": "Student (Work-Study)",
+    "exp3_location_time": "Thai Nguyen University of ICT, Joomfashion Web Development Group | 2014 - 2016",
+    "exp3_list": [
+      "Assisting in the development of Joomla websites, pure PHP, etc.",
+      "Assisting in UI development using HTML, CSS, and JavaScript.",
+      "Building plugins on the Joomla platform.",
+      "Managing MySQL database systems.",
+      "Researching and studying programming languages: C++, Android development, etc.",
+      "Contributing to small feature development and bug fixing."
+    ],
+    "contact_desc": "You can contact me through the following channels:",
+    "copyright": "Personal information copyright belongs to Nguyen Duc Duong.",
+    "copyright2": "Designed with <span class=\"text-red-500\">&hearts;</span> and your trust."
+  },
+  "ko": {
+    "p_name": "Nguyen Duc Duong (응우옌 덕 즈엉)",
+    "desc": "MFC (C++), Python, Nodejs, PHP, Html, CSS, Javascript 개발자",
+    "menu1": "자기소개",
+    "menu2": "기술 스택",
+    "menu3": "경력 사항",
+    "menu4": "연락처",
+    "interview": "안녕하십니까! 저는 다양한 언어와 플랫폼에서 탄탄한 기술적 기반을 쌓아온 소프트웨어 개발자 응우옌 덕 드엉입니다. <b>MFC (C++)</b>를 이용한 고성능 데스크톱 애플리케이션 구축에 특화되어 있으며, <b>NodeJS, PHP</b> 및 <b>HTML/CSS/JS</b>를 활용한 현대적인 웹 개발에도 유연한 사고방식을 가지고 있습니다. 시스템 프로그래밍 사고와 웹 기술의 민첩성을 결합하여 복잡한 문제를 종합적으로 해결하며, 항상 소프트웨어 성능 최적화와 최상의 사용자 경험 제공을 위해 노력하고 있습니다.",
+    "skill1": "소프트웨어 개발",
+    "skill1_list": [
+      "MFC (C++) - isMedia 장비용 카메라 개발 DLL",
+      "PHP (WordPress, Joomla, Codeigniter, Laravel 등)",
+      "Node.js, Express.js",
+      "Python",
+      "HTML, CSS, JavaScript"
+    ],
+    "skill2": "데이터베이스",
+    "skill2_list": [
+      "Flat File Database (NoSQL)",
+      "Binary Data Store",
+      "Delimited Text File (CSV, TXT 등)",
+      "MySQL",
+      "SQL Server"
+    ],
+    "skill3": "도구 및 기타",
+    "skill3_list": [
+      "Git, GitHub/GitLab",
+      "Visual Studio (2017, 2019, 2026), Visual Studio Code",
+      "OllyDbg, Depends22 (디버깅 도구)",
+      "MPLAB X IDE, Arduino",
+      "HxD, Batch Command Line",
+      "FileZilla"
+    ],
+    "exp1": "풀스택 개발자 (Full-stack Developer)",
+    "exp1_location_time": "Mcnex VNA | 2020년 3월 28일 - 현재",
+    "exp1_list": [
+      "isMedia 장비 라인용 DLL 개발 및 프로그램 유지보수",
+      "AA 장비 라인용 DLL 개발",
+      "Codejig (MPLAB X IDE) 기반 모듈 동작 설정 및 검사 프로그램 개발",
+      "모듈 데이터 검증 프로그램 개발 (Arduino)",
+      "Binary, INI, CSV 등의 데이터를 통한 모듈 데이터 처리",
+      "Python, NodeJS, Batch 등을 이용한 업무 지원 툴 개발",
+      "HxD를 이용한 바이너리 데이터 분석 및 검사",
+      "Depends & OllyDbg를 통한 문제 분석 및 디버깅"
+    ],
+    "exp2": "프리랜서 웹 개발자",
+    "exp2_location_time": "프리랜서 | 2016년 - 2020년",
+    "exp2_list": [
+      "WordPress, Joomla, Codeigniter, Laravel 기반 웹사이트 구축",
+      "WordPress, Joomla 전용 플러그인 개발",
+      "MySQL 시스템 및 웹서버 관리",
+      "HTML, CSS, JavaScript를 이용한 사용자 인터페이스(UI) 개발"
+    ],
+    "exp3": "학생 (학업 및 실무 병행)",
+    "exp3_location_time": "타이응우옌 정보통신대학교 (ICTU), Joomfashion 웹 개발 팀 | 2014년 - 2016년",
+    "exp3_list": [
+      "Joomla 기반 웹 및 Pure PHP 개발 지원",
+      "HTML, CSS, JavaScript를 이용한 UI 개발 지원",
+      "Joomla 플랫폼 플러그인 구축",
+      "MySQL 데이터베이스 시스템 관리",
+      "C++, 안드로이드 개발 등 프로그래밍 언어 연구 및 학습",
+      "소규모 기능 개발 및 버그 수정 참여"
+    ],
+    "contact_desc": "다음 채널을 통해 연락 가능합니다:",
+    "copyright": "개인 정보에 대한 저작권은 Nguyen Duc Duong에게 있습니다.",
+    "copyright2": "귀하의 신뢰와 <span class=\"text-red-500\">&hearts;</span>로 제작되었습니다."
+  }
+}
