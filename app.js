@@ -59,6 +59,5 @@ function renderList(lang) {
         });
 }
 
-var currentLang = localStorage.getItem('preferredLang');
-if(currentLang=="") currentLang = "vi";
+currentLang = localStorage.getItem('preferredLang') || "vi";
 renderList(currentLang)
