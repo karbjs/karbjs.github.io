@@ -44,6 +44,26 @@
         .experience-item:hover {
             background-color: #f0f4f8; /* Light hover for experience items */
         }
+        nav a { color: #4f46e5; } 
+
+        /* Nếu thẻ html có lang="vi", thì nút VI sẽ có màu đỏ hoặc gạch chân */
+        html[lang="vi"] a[onclick="renderList('vi')"] {
+            color: #b91c1c; /* Đỏ */
+            text-decoration: underline;
+            font-weight: bold;
+        }
+
+        html[lang="en"] a[onclick="renderList('en')"] {
+            color: #b91c1c;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+
+        html[lang="ko"] a[onclick="renderList('ko')"] {
+            color: #b91c1c;
+            text-decoration: underline;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body class="antialiased text-gray-800">
