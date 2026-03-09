@@ -59,5 +59,5 @@ function renderList(lang) {
         });
 }
 
-currentLang = localStorage.getItem('preferredLang') || "vi";
+currentLang = localStorage.getItem('preferredLang') || "en";
 renderList(currentLang)
