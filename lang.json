@@ -37,7 +37,7 @@
     "exp1_list": [
       "Phát triển dll và duy trì các chương trình cho dòng máy isMedia.",
       "Phát triển dll cho dòng máy AA.",
-      "Phát triển chương trình kiểm tra, thiết lập chuyển động cho module trên codejig (MPLAB X IDE).",
+      "Phát triển chương trình kiểm tra, thiết lập chuyển động cho module trên codejig (MPLAB X IDE, Microchip PICkit3).",
       "Phát triển chương trình kiểm tra dữ liệu module (Ardunio).",
       "Xử lý dữ liệu module thông qua các dữ liệu từ Binary, ini, csv, ...",
       "Phân triển các tool hỗ trợ hoạt động qua python, nodejs, batch, ...",
@@ -104,7 +104,7 @@
     "exp1_list": [
       "Developing DLLs and maintaining programs for the isMedia machine line.",
       "Developing DLLs for the AA machine line.",
-      "Developing inspection and motion setup programs for modules on Codejig (MPLAB X IDE).",
+      "Developing inspection and motion setup programs for modules on Codejig (MPLAB X IDE, Microchip PICkit3).",
       "Developing module data verification programs (Arduino).",
       "Processing module data through Binary, INI, CSV formats, etc.",
       "Developing automation tools using Python, NodeJS, Batch, etc.",
@@ -171,7 +171,7 @@
     "exp1_list": [
       "isMedia 장비 라인용 DLL 개발 및 프로그램 유지보수",
       "AA 장비 라인용 DLL 개발",
-      "Codejig (MPLAB X IDE) 기반 모듈 동작 설정 및 검사 프로그램 개발",
+      "Codejig (MPLAB X IDE, Microchip PICkit3) 기반 모듈 동작 설정 및 검사 프로그램 개발",
       "모듈 데이터 검증 프로그램 개발 (Arduino)",
       "Binary, INI, CSV 등의 데이터를 통한 모듈 데이터 처리",
       "Python, NodeJS, Batch 등을 이용한 업무 지원 툴 개발",
