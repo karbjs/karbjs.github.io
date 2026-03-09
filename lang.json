@@ -6,7 +6,7 @@
     "menu2": "Kỹ Năng",
     "menu3": "Kinh Nghiệm",
     "menu4": "Liên Hệ",
-    "interview": "Xin chào! Tôi là Nguyễn Đức Dương, một lập trình viên có nền tảng kỹ thuật vững chắc với kinh nghiệm làm việc trên nhiều ngôn ngữ và nền tảng khác nhau. Tôi có khả năng xây dựng các ứng dụng desktop hiệu suất cao bằng <b>MFC (C++)</b>, đồng thời sở hữu tư duy linh hoạt trong phát triển web hiện đại với <b>NodeJS, PHP</b> và bộ ba <b>HTML/CSS/JS</b>. Sự kết hợp giữa tư duy lập trình hệ thống và sự nhạy bén với công nghệ web cho phép tôi tiếp cận các bài toán phức tạp một cách toàn diện. Tôi luôn tìm kiếm cơ hội để tối ưu hóa hiệu suất phần mềm và mang lại trải nghiệm người dùng tốt nhất.",
+    "interview": "Tôi là <b>Nguyễn Đức Dương</b>, một lập trình viên có kinh nghiệm thực tế trong việc phát triển và duy trì hệ thống kiểm tra camera (<b>isMedia</b>, <b>AA</b>) tại môi trường sản xuất công nghệ cao. Thế mạnh của tôi là khả năng kết hợp linh hoạt giữa lập trình hệ thống hiệu suất cao (<b>MFC/C++</b>) với các giải pháp phần mềm hiện đại (<b>NodeJS</b>, <b>PHP</b>) để giải quyết các bài toán kỹ thuật từ tầng thiết bị đến quản lý dữ liệu. Với tư duy tối ưu hóa và kinh nghiệm debug chuyên sâu (<b>DLL</b>, <b>Binary</b>), tôi luôn hướng tới việc xây dựng các công cụ giúp ổn định dây chuyền và nâng cao hiệu suất vận hành.",
     "skill1": "Phát Triển Phần Mềm",
     "skill1_list": [
       "MFC (C++) - Dll phát triển camera cho dòng máy isMedia",
@@ -73,7 +73,7 @@
     "menu2": "Skills",
     "menu3": "Experience",
     "menu4": "Contact",
-    "interview": "Hello! I am Nguyen Duc Duong, a software engineer with a robust technical foundation and extensive experience across various languages and platforms. I specialize in building high-performance desktop applications using <b>MFC (C++)</b>, while maintaining a flexible mindset for modern web development with <b>NodeJS, PHP</b>, and the <b>HTML/CSS/JS</b> triad. The synergy between system-level programming and web technology agility allows me to approach complex problems comprehensively. I am always seeking opportunities to optimize software performance and deliver the best possible user experience.",
+    "interview": "I am <b>Nguyễn Đức Dương</b>, a developer with hands-on experience in developing and maintaining camera testing systems (<b>isMedia</b>, <b>AA</b>) in high-tech manufacturing environments. My core strength lies in combining high-performance system programming (<b>MFC/C++</b>) with modern software solutions (<b>NodeJS</b>, <b>PHP</b>) to solve technical challenges ranging from the device level to data management. With a mindset focused on optimization and deep debugging expertise (<b>DLL</b>, <b>Binary</b>), I am dedicated to building tools that stabilize production lines and enhance operational efficiency.",
     "skill1": "Software Development",
     "skill1_list": [
       "MFC (C++) - DLL development for isMedia camera series",
@@ -140,7 +140,7 @@
     "menu2": "기술 스택",
     "menu3": "경력 사항",
     "menu4": "연락처",
-    "interview": "안녕하십니까! 저는 다양한 언어와 플랫폼에서 탄탄한 기술적 기반을 쌓아온 소프트웨어 개발자 응우옌 덕 드엉입니다. <b>MFC (C++)</b>를 이용한 고성능 데스크톱 애플리케이션 구축에 특화되어 있으며, <b>NodeJS, PHP</b> 및 <b>HTML/CSS/JS</b>를 활용한 현대적인 웹 개발에도 유연한 사고방식을 가지고 있습니다. 시스템 프로그래밍 사고와 웹 기술의 민첩성을 결합하여 복잡한 문제를 종합적으로 해결하며, 항상 소프트웨어 성능 최적화와 최상의 사용자 경험 제공을 위해 노력하고 있습니다.",
+    "interview": "저는 <b>Nguyễn Đức Dương</b>입니다. 하이테크 제조 환경에서 카메라 검사 시스템(<b>isMedia</b>, <b>AA</b>)을 개발하고 유지 관리한 실무 경험을 보유한 개발자입니다. 저의 강점은 고성능 시스템 프로그래밍(<b>MFC/C++</b>)과 최신 소프트웨어 솔루션(<b>NodeJS</b>, <b>PHP</b>)을 유연하게 결합하여 디바이스 레벨부터 데이터 관리까지의 기술적 문제를 해결하는 데 있습니다. 최적화 사고방식과 심층 디버깅 노하우(<b>DLL</b>, <b>Binary</b>)를 바탕으로, 생산 라인을 안정화하고 운영 효율성을 높이는 도구를 구축하는 데 전념하고 있습니다.",
     "skill1": "소프트웨어 개발",
     "skill1_list": [
       "MFC (C++) - isMedia 장비용 카메라 개발 DLL",
